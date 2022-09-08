@@ -1,0 +1,13 @@
+{
+    "name": "mono-a",
+    "version": "0.1.0",
+    "author": "st",
+    "license": "UNLICENSED",
+    "main": "lib/mono-a.js",
+    "scripts": {
+    },
+    "files": [
+        "dist/{,!(docs)/**/}!(*.spec).*",
+        "src/**/!(*.spec).*"
+    ]
+}

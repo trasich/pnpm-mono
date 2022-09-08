@@ -1,0 +1,17 @@
+{
+    "name": "app",
+    "version": "0.1.0",
+    "author": "st",
+    "license": "UNLICENSED",
+    "main": "lib/app.js",
+    "scripts": {
+    },
+    "files": [
+        "dist/{,!(docs)/**/}!(*.spec).*",
+        "src/**/!(*.spec).*"
+    ],
+    "dependencies": {
+        "mono-a": "workspace:*",
+        "mono-b": "workspace:*"
+    }
+}
