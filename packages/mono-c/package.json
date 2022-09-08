@@ -1,9 +1,9 @@
 {
-    "name": "app",
+    "name": "mono-c",
     "version": "0.1.0",
     "author": "st",
     "license": "UNLICENSED",
-    "main": "lib/app.js",
+    "main": "lib/mono-c.js",
     "scripts": {
     },
     "files": [
@@ -11,9 +11,6 @@
         "src/**/!(*.spec).*"
     ],
     "dependencies": {
-        "mono-a": "workspace:*",
-        "mono-c": "workspace:*",
-        "mono-b": "workspace:*",
-        "slash":"4.0.0"
+        "mono-b":"0.1.0"
     }
 }

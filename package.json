@@ -13,6 +13,13 @@
     "type": "module",
     "scripts": {
     },
+    "publishConfig": {
+        "registry":"https://npm.pkg.github.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:trasich/pnpm-mono.git"
+    },
     "devDependencies": {
 
     },

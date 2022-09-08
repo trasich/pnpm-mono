@@ -1,0 +1,37 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  apps/app:
+    specifiers:
+      mono-a: workspace:*
+      mono-b: workspace:*
+      mono-c: workspace:*
+      slash: 4.0.0
+    dependencies:
+      mono-a: link:../../packages/mono-a
+      mono-b: link:../../packages/mono-b
+      mono-c: link:../../packages/mono-c
+      slash: 4.0.0
+
+  packages/mono-a:
+    specifiers: {}
+
+  packages/mono-b:
+    specifiers: {}
+
+  packages/mono-c:
+    specifiers:
+      mono-b: 0.1.0
+    dependencies:
+      mono-b: link:../mono-b
+
+packages:
+
+  /slash/4.0.0:
+    resolution: {integrity: sha1-JCI3IXbExsWt214q2oha+YSzlqc=}
+    engines: {node: '>=12'}
+    dev: false
