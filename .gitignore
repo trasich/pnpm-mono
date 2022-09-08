@@ -4,6 +4,7 @@ node_modules
 .build_cache/
 .cache
 .pnpm-store/
+.npmrc
 
 # Log files
 npm-debug.log*
